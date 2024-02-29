@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 	"net/http"
-	// "path/filepath"
 	"os"
 	"path"
 	"strings"
@@ -15,7 +14,7 @@ import (
 	"github.com/labstack/echo/v4/middleware"
 	"github.com/labstack/gommon/log"
 )
-const dbPath = "path/to/your/database.db"
+const dbPath = "mercari-build-training\\db\\database.db"
 
 type Item struct {
     Name         string `json:"name"`
